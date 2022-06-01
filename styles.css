@@ -1,0 +1,88 @@
+@font-face {
+    font-family: Nephilm;
+    src: url(Nephilm.otf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.hero {
+    height: 100vh;
+    width: 100%;
+    background-color: #10182B;
+    margin-bottom: 152px;
+}
+
+
+
+nav {
+    background-color: rgb(252, 252, 252);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 8%;
+    padding-right: 8%;
+    height: 64px;
+}
+
+.logo {
+    color: rgb(254, 248, 237);
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-style: italic;
+    cursor: pointer;
+}
+
+.content {
+    color: white;
+    align-items: center;
+    margin: 50px auto;
+    margin-top: 172px;
+}
+
+p {
+    color: white 20%;
+    font-size: 24px;
+    text-align: center;
+    padding: 20px 10px;
+    margin-bottom: -2px;
+    font-family: sans-serif;
+}
+
+h2 {
+    font-family: Nephilm;
+    color: white 20%;
+    font-size: 50px;
+    text-align: center;
+    padding: 25px 140px;
+    margin-top: -2px;
+    font-weight: medium;
+}
+
+span {
+    color: #5E8DFE;
+}
+
+.work_cards {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+h3 {
+    font-family: Nephilm;
+    color: #10182B;
+    font-size: 36px;
+    text-align: center;
+   /*background-color: aqua; */
+   font-weight: 100;
+    margin-top: 300px;
+    margin-bottom: 20px;
+}
+
+.work_cards > div {
+    margin: 24px;
+}
