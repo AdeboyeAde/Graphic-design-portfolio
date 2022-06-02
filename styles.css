@@ -67,9 +67,11 @@ span {
 
 .work_cards {
     display: flex;
-    flex-flow: wrap;
-    justify-content: center;
-    margin-top: 150px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 70%;
+    /*margin-top: 10rem !important;*/
 }
 
 h3 {
@@ -77,12 +79,41 @@ h3 {
     color: #10182B;
     font-size: 36px;
     text-align: center;
-   /*background-color: aqua; */
-   font-weight: 100;
+    /*background-color: aqua; */
+    font-weight: 100;
     margin-top: 300px;
     margin-bottom: 20px;
 }
 
-.work_cards > div {
-    margin: 24px;
+.work_cards>div {
+    width: 48%;
+    margin-top: 90px;
+}
+
+.desrptn {
+    font-size: 16px;
+    text-align: left;
+    margin-top: 4px;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.title {
+    font-family: Nephilm;
+    font-size: 24px;
+    text-align: left;
+    margin-top: 29px;
+    margin-bottom: 4px;
+    padding: 0;
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+.a_title {
+    text-decoration: none;
+    font-family: Nephilm;
+    color: #10182B;
 }
