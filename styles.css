@@ -11,7 +11,7 @@
 .hero {
     height: 100vh;
     width: 100%;
-    background-color: #10182B;
+    background-color: black;
     margin-bottom: 152px;
 }
 
@@ -79,10 +79,11 @@ h3 {
     color: #10182B;
     font-size: 36px;
     text-align: center;
-    /*background-color: aqua; */
+   /*background-color: aqua;*/
     font-weight: 100;
-    margin-top: 300px;
+    margin-top: 140px;
     margin-bottom: 20px;
+    text-decoration: underline;
 }
 
 .work_cards>div {
@@ -96,13 +97,14 @@ h3 {
     margin-top: 4px;
     padding: 0;
     font-family: sans-serif;
+    font-weight: 100;
 }
 
 .title {
     font-family: Nephilm;
     font-size: 24px;
     text-align: left;
-    margin-top: 29px;
+    margin-top: 12px;
     margin-bottom: 4px;
     padding: 0;
     text-decoration: none;
@@ -116,4 +118,25 @@ img {
     text-decoration: none;
     font-family: Nephilm;
     color: #10182B;
+}
+
+.footer-content {
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3 {
+    font-size: 1.8rem;
+}
+
+.socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
