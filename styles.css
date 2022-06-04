@@ -39,7 +39,7 @@ nav a {
 }*/
 
 nav a:hover {
-    color: #5E8DFE;
+    color: rgb(9, 204, 204);
 }
 
 .logo {
@@ -199,7 +199,7 @@ h5 {
 }
 
 .socials a:hover i {
-     color: #5E8DFE;
+     color: rgb(9, 204, 204);
 }
 
 .footer-bottom {
@@ -232,15 +232,19 @@ h5 {
 
 @media screen and (max-width: 375px) {
     
-.work_cards {
-    background-color: red;    
+.work_cards {  
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     margin: 0 auto;
-    width: 70%;
+    width: 85%;
 
     }
+
+        .work_cards>div {
+            width: 100%;
+            margin-top: 80px;
+        }
 
         .content {
             color: white;
@@ -262,7 +266,7 @@ h5 {
             height: 75vh;
             width: 100%;
             background-color: black;
-            margin-bottom: 152px;
+            margin-bottom: 100px;
         }
     
     h2 {
@@ -271,7 +275,42 @@ h5 {
         font-size: 1.7rem;
         padding: 10px 2px;
         text-align: center;
-        width: 95%;
+        width: 100%;
         font-weight: medium;
     }
+
+    .select {
+        font-size: 1.5rem;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .more-work {
+        font-size: 1.5rem;
+        margin-top: 80px;
+    }
+
+        .media {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+
+                .footer-content {
+                    color: white;
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: column;
+                    text-align: center;
+                    margin-top: 10px;
+                }
+
+                           .socials {
+                               list-style: none;
+                               display: flex;
+                               align-items: center;
+                               margin-right: 0;
+                           }
 }
