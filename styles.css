@@ -230,7 +230,8 @@ h5 {
     margin-right: 30px;
 }
 
-@media screen and (max-width: 375px) {
+
+@media screen and (max-width: 420px) {
     
 .work_cards {  
     display: flex;
