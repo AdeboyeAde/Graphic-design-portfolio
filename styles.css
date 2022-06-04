@@ -230,8 +230,9 @@ h5 {
     margin-right: 30px;
 }
 
+/* mobile devices 320px - 480px */
 
-@media screen and (max-width: 420px) {
+@media (min-width: 320px)and (max-width: 480px) (orientation: landscape) {
     
 .work_cards {  
     display: flex;
@@ -315,3 +316,113 @@ h5 {
                                margin-right: 0;
                            }
 }
+
+
+/* ipads and tablets 481px - 768px */
+
+@media (min-width: 481px)and (max-width: 768px) {
+
+    .work_cards {
+        background-color: aqua;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            margin: 0 auto;
+            width: 85%;
+}
+
+.work_cards>div {
+            width: 100%;
+            margin-top: 80px;
+        }
+
+        .content {
+            color: white;
+            align-items: center;
+            margin: 50px auto;
+            margin-top: 50px;
+        }
+
+        p {
+            color: white 20%;
+            font-size: 24px;
+            text-align: center;
+            padding: 20px 10px;
+            margin: 0;
+            font-family: sans-serif;
+        }
+
+        .hero {
+            height: 75vh;
+            width: 100%;
+            background-color: black;
+            margin-bottom: 100px;
+        }
+    
+    h2 {
+        font-family: Nephilm;
+        color: white 20%;
+        font-size: 1.7rem;
+        padding: 10px 2px;
+        text-align: center;
+        width: 100%;
+        font-weight: medium;
+    }
+
+    .select {
+        font-size: 1.5rem;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .more-work {
+        font-size: 1.5rem;
+        margin-top: 80px;
+    }
+
+        .media {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+
+                .footer-content {
+                    color: white;
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: column;
+                    text-align: center;
+                    margin-top: 10px;
+                }
+
+                           .socials {
+                               list-style: none;
+                               display: flex;
+                               align-items: center;
+                               margin-right: 0;
+                           }
+
+}
+
+/* Small screen laptops 769px - 1024px */
+
+@media (min-width: 769px)and (max-width: 1024px) {
+
+.work_cards {
+        background-color: red;
+    }
+
+}
+
+/* Destop and large screen laptops 1025px - 1200px */
+
+@media (min-width: 1025px)and (max-width: 1024px) {
+
+.work_cards {
+        background-color: blue;
+    }
+
+}
+
