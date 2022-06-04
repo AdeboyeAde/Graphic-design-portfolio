@@ -77,8 +77,25 @@ h2 {
     font-weight: medium;
 }
 
+.learn-more {
+    font-size: 18px;
+    margin-top: 24px;
+    text-align: center;
+    text-decoration: underline;
+    width: 100%;
+}
+
+.more {
+    text-decoration: none;
+    color: rgb(9, 204, 204);
+}
+
 span {
-    color: #5E8DFE;
+    color: rgb(9, 204, 204);
+}
+
+.select {
+    text-decoration: none;
 }
 
 .work_cards {
@@ -211,4 +228,50 @@ h5 {
     display: flex;
     align-items: center;
     margin-right: 30px;
+}
+
+@media screen and (max-width: 375px) {
+    
+.work_cards {
+    background-color: red;    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 70%;
+
+    }
+
+        .content {
+            color: white;
+            align-items: center;
+            margin: 50px auto;
+            margin-top: 50px;
+        }
+
+        p {
+            color: white 20%;
+            font-size: 24px;
+            text-align: center;
+            padding: 20px 10px;
+            margin: 0;
+            font-family: sans-serif;
+        }
+
+        .hero {
+            height: 60vh;
+            width: 100%;
+            background-color: black;
+            margin-bottom: 152px;
+        }
+    
+    h2 {
+        font-family: Nephilm;
+        color: white 20%;
+        font-size: 1.7rem;
+        padding: 10px 2px;
+        text-align: center;
+        width: 95%;
+        font-weight: medium;
+    }
 }
