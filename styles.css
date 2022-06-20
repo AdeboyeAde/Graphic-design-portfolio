@@ -86,13 +86,6 @@ h2 {
     animation-name: slideup;
 }
 
-@keyframes slideup {
-    from {
-        margin-left: 100%;
-        width: 300%;
-    }
-}
-
 .learn-more {
     font-size: 18px;
     margin-top: 24px;
