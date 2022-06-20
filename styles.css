@@ -29,7 +29,7 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: #051b4e;
+    color: #292a2c;
     font-family: sans-serif;
     margin-left: 30px;
 }
@@ -41,6 +41,13 @@ nav a {
 nav a:hover {
     color: rgb(9, 204, 204);
 }
+
+.logo{
+    border-radius: 50%;
+    height: 30px;
+    width: 32px;
+}
+
 
 .logo {
     color: black;
@@ -69,12 +76,21 @@ p {
 
 h2 {
     font-family: Nephilm;
-    color: white 20%;
+    color: #e5e5e5;
     font-size: 50px;
     text-align: center;
     padding: 25px 140px;
     margin-top: -2px;
     font-weight: medium;
+    animation-duration: 3s;
+    animation-name: slideup;
+}
+
+@keyframes slideup {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
 }
 
 .learn-more {
@@ -103,13 +119,13 @@ span {
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 0 auto;
-    width: 70%;
+    width: 80%;
     /*margin-top: 10rem !important;*/
 }
 
 h3 {
     font-family: Nephilm;
-    color: #10182B;
+    color: #292a2c;
     font-size: 36px;
     text-align: center;
    /*background-color: aqua;*/
@@ -150,7 +166,7 @@ img {
 .a_title {
     text-decoration: none;
     font-family: Nephilm;
-    color: #10182B;
+    color: #292a2c;
 }
 
 footer {
@@ -340,7 +356,7 @@ h5 {
                                 h2 {
                                     font-family: Nephilm;
                                     color: white 20%;
-                                    font-size: 2.5rem;
+                                    font-size: 2.0rem;
                                     padding: 10px 2px;
                                     text-align: center;
                                     width: 100%;
@@ -357,14 +373,3 @@ h5 {
                 }
 
 }
-
-/* Destop and large screen laptops 1025px - 1200px */
-
-@media (min-width: 1025px)and (max-width: 1024px) {
-
-.work_cards {
-        background-color: blue;
-    }
-
-}
-
