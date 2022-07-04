@@ -115,7 +115,13 @@ hr {
 
 .right-text2 {
     width: 50%;
-    margin-bottom: 50px;
+    margin-bottom: 2px;
+    margin-top: 109px;
+    margin-left: 200px;
+}
+.right-text3 {
+    width: 50%;
+    margin-bottom: 90px;
     margin-top: 109px;
     margin-left: 200px;
 }
@@ -124,14 +130,12 @@ hr {
     font-family: Nephilm;
     font-size: 50px;
     text-align: left;
-    color: #56585A;
 }
 
 .heading3 {
     font-family: sans-serif;
     margin-bottom: 20px;
     font-size: 16px;
-    color: #56585A;
 }
 
 .dscrp-text {
@@ -166,7 +170,9 @@ hr {
     flex-direction: column;
     justify-content: center;
     align-content: center;
+    margin-top: 2px;
 }
+
 .mokup1 {
     width: 100%;
     display: flex;
@@ -186,7 +192,9 @@ hr {
 .mokup_img {
     width: 85%;
     margin-left: 130px;
+    margin-top: -18px;
 }
+
 .mokup_img1 {
     width: 85%;
     margin-left: 130px;
@@ -213,7 +221,7 @@ hr {
 
 h3 {
     font-family: Nephilm;
-    color: #56585A;
+    color: #3E454D;
     font-size: 36px;
     text-align: center;
     font-weight: 100;
@@ -425,17 +433,8 @@ h5 {
         flex-direction: column;
         justify-content: center;
         /* background-color: red; */
-        margin-top: -30px;
-
-    }
-    
-    .mokup {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        /* background-color: red; */
-        margin-top: -30px;
+        margin-top: -40px;
+        margin-bottom: 40px;
 
     }
 
@@ -462,6 +461,7 @@ h5 {
         justify-content: space-between;
         margin: 0 auto;
         width: 80%;
+        margin-top: -30px;
 
     }
 
@@ -633,7 +633,7 @@ h5 {
         margin-top: -30px;
 
     }
-    
+
     .logo_ace {
         width: 50%;
         margin-left: 90px;
