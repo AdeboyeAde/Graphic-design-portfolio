@@ -54,8 +54,6 @@ nav a:hover {
     margin-top: 30px;
     width: 85%;
     background-color: blue;
-
-
 }
 
 p {
@@ -221,6 +219,29 @@ h3 {
     margin-bottom: 20px;
 }
 
+.select {
+    font-size: 20px;
+}
+
+.next_pro {
+    display: flex;
+    flex-wrap: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 85%;
+    margin-top: 60px;
+    margin-left: 145px;
+}
+
+.next_pro>div {
+    width: 50%;
+    margin-top: 10px;
+}
+
+.pros {
+    width: 90%;
+}
+
 footer {
     background-color: black;
     margin-top: 120px;
@@ -301,7 +322,7 @@ h5 {
 
 /* mobile devices 320px - 480px */
 
-@media (max-width: 768px) {
+@media (max-width: 480px) {
 
     /* .hero {
             height: 75vh;
@@ -322,8 +343,10 @@ h5 {
 
     .young {
         margin-top: 2px;
-        width: 80%;
+        width: 100%;
         margin-left: 40px;
+        background-color: aquamarine;
+        padding: 20PX;
     }
 
     .text-container {
@@ -431,13 +454,14 @@ h5 {
 
     }
     
-    .mokup {
+    .mokup1 {
         width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         /* background-color: red; */
-        margin-top: -30px;
+        margin-top: 10px;
+        margin-left: 300px;
 
     }
 
@@ -450,12 +474,12 @@ h5 {
 
     .mokup_img {
         width: 80%;
-        margin-left: 35px;
+        margin-left: 40px;
     }
 
     .mokup_img1 {
         width: 80%;
-        margin-left: 35px;
+        margin-left: 48px;
     }
 
     .work_cards {
@@ -477,9 +501,34 @@ h5 {
     }
 
     .select {
-        font-size: 1.5rem;
-        margin-top: 80px;
+        font-size: 12px;
+        margin-top: 50px;
     }
+
+        .next_pro {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin: 0 auto;
+            width: 85%;
+            margin-top: 30px;
+            margin-left: 45px;
+            margin-bottom: -60px;
+        }
+    
+        .next_pro>div {
+            width: 100%;
+            margin-top: 10px;
+            margin: 5px;
+        }
+    
+        .pros {
+            width: 90%;
+        }
+    
+        .pro3 {
+            display: none;
+        }
 
     .media {
         display: flex;

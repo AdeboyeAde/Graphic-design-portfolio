@@ -130,6 +130,7 @@ hr {
     font-family: Nephilm;
     font-size: 50px;
     text-align: left;
+    color: #2d3339;
 }
 
 .heading3 {
@@ -182,13 +183,6 @@ hr {
     margin-top: 10px;
 }
 
-.logo_ace {
-    width: 30%;
-    margin-left: 520px;
-    margin-bottom: 150px;
-    margin-top: 112px;
-}
-
 .mokup_img {
     width: 85%;
     margin-left: 130px;
@@ -198,6 +192,7 @@ hr {
 .mokup_img1 {
     width: 85%;
     margin-left: 130px;
+    margin-top: 10px;
 }
 
 .work_cards {
@@ -227,6 +222,29 @@ h3 {
     font-weight: 100;
     margin-top: 140px;
     margin-bottom: 20px;
+}
+
+.select {
+   font-size: 24px;
+}
+
+.next_pro {
+    display: flex;
+    flex-wrap: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 85%;
+    margin-top: 60px;
+    margin-left: 145px;
+}
+
+.next_pro>div {
+    width: 50%;
+    margin-top: 10px;
+}
+
+.pros {
+    width: 90%;
 }
 
 footer {
@@ -309,7 +327,7 @@ h5 {
 
 /* mobile devices 320px - 480px */
 
-@media (max-width: 768px) {
+@media (min-width: 320px) and (max-width: 480px) {
 
     /* .hero {
             height: 75vh;
@@ -330,7 +348,7 @@ h5 {
 
     .young {
         margin-top: 2px;
-        width: 80%;
+        width: 85%;
         margin-left: 40px;
     }
 
@@ -384,6 +402,14 @@ h5 {
     }
 
     .right-text2 {
+        width: 82%;
+        margin-bottom: 50px;
+        margin-top: 55px;
+        margin-left: 40px;
+        /* background-color: aquamarine; */
+    }
+
+    .right-text3 {
         width: 82%;
         margin-bottom: 50px;
         margin-top: 55px;
@@ -438,21 +464,25 @@ h5 {
 
     }
 
-    .logo_ace {
-        width: 50%;
-        margin-left: 90px;
-        margin-bottom: 50px;
-        margin-top: 30px;
+    .mokup1 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* background-color: red; */
+        margin-top: -40px;
+        margin-bottom: 40px;
+
     }
 
     .mokup_img {
         width: 80%;
-        margin-left: 35px;
+        margin-left: 40px;
     }
 
     .mokup_img1 {
         width: 80%;
-        margin-left: 35px;
+        margin-left: 40px;
     }
 
     .work_cards {
@@ -462,6 +492,7 @@ h5 {
         margin: 0 auto;
         width: 80%;
         margin-top: -30px;
+        margin-left: 40px;
 
     }
 
@@ -475,9 +506,34 @@ h5 {
     }
 
     .select {
-        font-size: 1.5rem;
-        margin-top: 80px;
+        font-size: 12px;
+        margin-top: 50px;
     }
+
+        .next_pro {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin: 0 auto;
+            width: 85%;
+            margin-top: 30px;
+            margin-left: 32px;
+            margin-bottom: -60px;
+        }
+    
+        .next_pro>div {
+            width: 100%;
+            margin-top: 10px;
+            margin: 5px;
+        }
+    
+        .pros {
+            width: 90%;
+        }
+
+     .pro3 {
+            display: none;
+         }
 
     .media {
         display: flex;
@@ -504,10 +560,9 @@ h5 {
     }
 }
 
+/* ipads and tablets 481px - 768px */
 
-/* Small screen laptops 769px - 1024px */
-
-@media (min-width: 769px)and (max-width: 1024px) {
+@media (max-width: 767px) {
     /* .hero {
             height: 75vh;
             width: 100%;
@@ -527,7 +582,7 @@ h5 {
 
     .young {
         margin-top: 2px;
-        width: 90%;
+        width: 85%;
         margin-left: 40px;
     }
 
@@ -625,20 +680,21 @@ h5 {
     }
 
     .mokup {
-        width: 100%;
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* background-color: red; */
+        margin-top: -8px;
+    }
+
+    .mokup1 {
+        width: 95%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         /* background-color: red; */
         margin-top: -30px;
-
-    }
-
-    .logo_ace {
-        width: 50%;
-        margin-left: 90px;
-        margin-bottom: 50px;
-        margin-top: 30px;
     }
 
     .mokup_img {
@@ -656,7 +712,7 @@ h5 {
         flex-direction: column;
         justify-content: space-between;
         margin: 0 auto;
-        width: 90%;
+        width: 85%;
 
     }
 
@@ -670,7 +726,7 @@ h5 {
     }
 
     .select {
-        font-size: 1.5rem;
+        font-size: 16px;
         margin-top: 80px;
     }
 
@@ -681,6 +737,35 @@ h5 {
         align-items: center;
         margin-bottom: 30px;
     }
+
+        .right-text3 {
+            width: 90%;
+            margin-bottom: 30px;
+            margin-top: 55px;
+            margin-left: 40px;
+            /* background-color: aquamarine; */
+        }
+
+    .next_pro {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin: 0 auto;
+            width: 80%;
+            margin-top: 30px;
+            margin-left: 50px;
+            margin-bottom: -60px;
+        }
+    
+    .next_pro>div {
+            width: 100%;
+            margin-top: 10px;
+            margin: 5px;
+        }
+    
+    .pros {
+            width: 90%;
+        }
 
     .footer-content {
         color: white;
