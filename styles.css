@@ -344,7 +344,7 @@ h5 {
         right: -300px;
         background: rgb(244, 251, 251);
         width: 40%;
-        height: 50%;
+        height: 65%;
         padding-top: 65px;
     }
 
@@ -356,7 +356,7 @@ h5 {
     }
 
 .hero {
-        height: 65vh;
+        height: 75vh;
         width: 100%;
         background-color: black;
         margin-bottom: 100px;
