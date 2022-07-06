@@ -79,8 +79,7 @@ nav {
     margin-top: 32px;
 }
 
-.hamburger:before,
-.hamburger:after {
+.hamburger:before, .hamburger:after {
     content: "";
     position: absolute;
     height: 4px;
@@ -110,35 +109,34 @@ nav {
     opacity: 0;
 }
 
-.hamburger,
-.toggle-menu {
+.hamburger, .toggle-menu {
     display: none;
 }
 
-.navigation input:checked~.hamburger {
+.navigation input:checked ~ .hamburger {
     background: transparent;
 }
 
-.navigation input:checked~.hamburger:before {
+.navigation input:checked ~ .hamburger:before {
     top: 0;
     transform: rotate(-45deg);
     width: 30px;
 }
 
-.navigation input:checked~.hamburger:after {
+.navigation input:checked ~ .hamburger:after {
     top: 0;
     transform: rotate(45deg);
     width: 30px;
 }
 
-.navigation input:checked~.menu {
+.navigation input:checked ~ .menu {
     right: 0;
 }
 
-.logo{
-    border-radius: 50%;
+.logo {
     height: 30px;
     width: 32px;
+    display: block;
 }
 
 .logo_img {
@@ -208,7 +206,7 @@ h3 {
     color: #292a2c;
     font-size: 36px;
     text-align: center;
-   /*background-color: aqua;*/
+    /*background-color: aqua;*/
     font-weight: 100;
     margin-top: 140px;
     margin-bottom: 20px;
@@ -253,6 +251,7 @@ footer {
     background-color: black;
     margin-top: 120px;
 }
+
 .footer-content {
     color: white;
     display: flex;
@@ -295,7 +294,7 @@ h5 {
 }
 
 .socials a:hover i {
-     color: rgb(9, 204, 204);
+    color: rgb(9, 204, 204);
 }
 
 .footer-bottom {
@@ -330,10 +329,10 @@ h5 {
 
 @media (max-width: 768px) {
 
-.hamburger,
-    .toggle-menu {
-        display: block;
-    }
+    .hamburger,
+        .toggle-menu {
+            display: block;
+        }
 
     .menu {
         justify-content: start;
@@ -346,8 +345,8 @@ h5 {
         width: 40%;
         height: 50%;
         padding-top: 65px;
-    }
-
+    }  
+    
     .menu li {
         width: 70%;
         padding: 10px;
@@ -355,69 +354,69 @@ h5 {
         font-weight: 545;
     }
 
-.hero {
+    .hero {
         height: 65vh;
         width: 100%;
         background-color: black;
         margin-bottom: 100px;
     }
 
-.content {
-    color: white;
-    align-items: center;
-    margin: 20px auto;
-    margin-top: 172px;
-    width: 90%;
-}
+    .content {
+        color: white;
+        align-items: center;
+        margin: 20px auto;
+        margin-top: 172px;
+        width: 90%;
+    }
 
-h2 {
-    font-family: Nephilm;
-    color: white 20%;
-    font-size: 2.0rem;
-    padding: 10px 2px;
-    text-align: center;
-    width: 100%;
-    font-weight: medium;
-}
+    h2 {
+        font-family: Nephilm;
+        color: white 20%;
+        font-size: 2.0rem;
+        padding: 10px 2px;
+        text-align: center;
+        width: 100%;
+        font-weight: medium;
+    }
 
-p {
-    color: white 20%;
-    font-size: 24px;
-    text-align: center;
-    padding: 20px 10px;
-    margin: 0;
-    font-family: sans-serif;
-}
-    
-.work_cards {  
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin: 0 auto;
-    width: 85%;
+    p {
+        color: white 20%;
+        font-size: 24px;
+        text-align: center;
+        padding: 20px 10px;
+        margin: 0;
+        font-family: sans-serif;
+    }
+
+    .work_cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 0 auto;
+        width: 85%;
 
     }
 
-        .work_cards>div {
-            width: 100%;
-            margin-top: 80px;
-        }
+    .work_cards>div {
+        width: 100%;
+        margin-top: 80px;
+    }
 
-        .content {
-            color: white;
-            align-items: center;
-            margin: 50px auto;
-            margin-top: 50px;
-        }
+    .content {
+        color: white;
+        align-items: center;
+        margin: 50px auto;
+        margin-top: 50px;
+    }
 
-        p {
-            color: white 20%;
-            font-size: 24px;
-            text-align: center;
-            padding: 20px 10px;
-            margin: 0;
-            font-family: sans-serif;
-        }
+    p {
+        color: white 20%;
+        font-size: 24px;
+        text-align: center;
+        padding: 20px 10px;
+        margin: 0;
+        font-family: sans-serif;
+    }
 
     h2 {
         font-family: Nephilm;
@@ -440,29 +439,29 @@ p {
         margin-top: 80px;
     }
 
-        .media {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            margin-bottom: 30px;
-        }
+    .media {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30px;
+    }
 
-                .footer-content {
-                    color: white;
-                    display: flex;
-                    justify-content: center;
-                    flex-direction: column;
-                    text-align: center;
-                    margin-top: 10px;
-                }
+    .footer-content {
+        color: white;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 10px;
+    }
 
-                           .socials {
-                               list-style: none;
-                               display: flex;
-                               align-items: center;
-                               margin-right: 0;
-                           }
+    .socials {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        margin-right: 0;
+    }
 }
 
 
@@ -470,38 +469,38 @@ p {
 
 @media (min-width: 769px)and (max-width: 1024px) {
 
-        .hero {
-            height: 70vh;
-            width: 100%;
-            background-color: black;
-            margin-bottom: 100px;
-        }
+    .hero {
+        height: 70vh;
+        width: 100%;
+        background-color: black;
+        margin-bottom: 100px;
+    }
 
-                .content {
-                    color: white;
-                    align-items: center;
-                    margin: 20px auto;
-                    margin-top: 172px;
-            
-                }
+    .content {
+        color: white;
+        align-items: center;
+        margin: 20px auto;
+        margin-top: 172px;
 
-                                h2 {
-                                    font-family: Nephilm;
-                                    color: white 20%;
-                                    font-size: 2.0rem;
-                                    padding: 10px 2px;
-                                    text-align: center;
-                                    width: 100%;
-                                    font-weight: medium;
-                                }
-        
-                p {
-                    color: white 20%;
-                    font-size: 24px;
-                    text-align: center;
-                    padding: 20px 10px;
-                    margin: 0;
-                    font-family: sans-serif;
-                }
+    }
+
+    h2 {
+        font-family: Nephilm;
+        color: white 20%;
+        font-size: 2.0rem;
+        padding: 10px 2px;
+        text-align: center;
+        width: 100%;
+        font-weight: medium;
+    }
+
+    p {
+        color: white 20%;
+        font-size: 24px;
+        text-align: center;
+        padding: 20px 10px;
+        margin: 0;
+        font-family: sans-serif;
+    }
 
 }
