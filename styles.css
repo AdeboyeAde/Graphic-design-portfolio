@@ -133,14 +133,10 @@ nav {
     right: 0;
 }
 
-.logo{
+.logo_img {
     border-radius: 50%;
     height: 30px;
     width: 32px;
-}
-
-.logo_img {
-    border-radius: 50%;
 }
 
 .content {
