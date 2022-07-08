@@ -11,6 +11,19 @@
     box-sizing: border-box;
 }
 
+#alert {
+    background-color: blue;
+    width: 100%;
+    color: aliceblue;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 9px;
+    font-weight: 100;
+    padding: 4px;
+    margin-bottom: 10px;
+    display: none;
+}
+
 nav {
     position: relative;
     background-color: rgb(252, 252, 252);
@@ -410,6 +423,20 @@ h5 {
 
 @media (max-width: 768px)  {
 
+
+#alert {
+        background-color: blue;
+        width: 100%;
+        color: aliceblue;
+        font-family: sans-serif;
+        text-align: center;
+        font-size: 9px;
+        font-weight: 100;
+        padding: 4px;
+        margin-bottom: 10px;
+        display: block;
+    }
+
 .hamburger,
     .toggle-menu {
         display: block;
@@ -561,7 +588,7 @@ h5 {
         /* background-color: red; */
         /* align-items: center;
         padding: 0 auto; */
-        margin-left: 15px;
+        margin-left: 10px;
 
         /* margin-top: -40px;
         margin-bottom: 40px;
@@ -583,7 +610,7 @@ h5 {
 
     .mokup_img {
         width: 80%;
-        margin-left: 42px;
+        margin-left: 30px;
         margin-top: 20px;
         margin-bottom: 20px;
         /* margin-right: 2px; */
@@ -591,7 +618,7 @@ h5 {
 
     .mokup_img1 {
         width: 80%;
-        margin-left: 42px;
+        margin-left: 30px;
     }
 
     .work_cards {
@@ -625,9 +652,9 @@ h5 {
             flex-direction: row;
             justify-content: space-between;
             margin: 0 auto;
-            width: 90%;
+            width: 85%;
             margin-top: 30px;
-            margin-left: 30px;
+            margin-left: 40px;
             margin-bottom: -60px;
         }
     
