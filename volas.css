@@ -446,12 +446,12 @@ h5 {
 
     .young {
         margin-top: 2px;
-        width: 95%;
-        margin-left: 15px;
+        width: 85%;
+        margin-left: 35px;
     }
 
     .text-container {
-        width: 80%;
+        width: 100%;
         /* background-color: blue; */
         display: flex;
         flex-direction: column;
@@ -459,7 +459,7 @@ h5 {
         align-items: flex-start;
         margin-top: 20px;
         margin-bottom: 90px;
-        margin-left: 10px;
+        /* margin-left: 10px; */
     }
 
     .left-text {
@@ -504,7 +504,7 @@ h5 {
         width: 82%;
         margin-bottom: 2px;
         margin-top: 55px;
-        margin-left: 38px;
+        margin-left: 40px;
         /* background-color: aquamarine; */
     }
 
@@ -553,15 +553,15 @@ h5 {
     }
 
     .mokup {
-        width: 95%;
+        width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         justify-content: center;
         /* background-color: red; */
-        align-items: center;
-        padding: 0 auto;
-        margin-left: 15px;
+        /* align-items: center;
+        padding: 0 auto; */
+        margin-left: -30px;
 
         /* margin-top: -40px;
         margin-bottom: 40px;
@@ -570,22 +570,22 @@ h5 {
     }
 
     .mokup1 {
-        width: 95%;
+        width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         /* background-color: red; */
         margin-top: 20px;
         margin-bottom: 40px;
-        margin-left: 15px;
+        margin-left: 200px;
 
     }
 
     .mokup_img {
-        width: 100%;
-        margin-left: 0;
-        margin-top: 20px;
-        margin-bottom: 20px;
+        width: 80%;
+        margin-left: 42px;
+        /* margin-top: 20px;
+        margin-bottom: 20px; */
         /* margin-right: 2px; */
     }
 
