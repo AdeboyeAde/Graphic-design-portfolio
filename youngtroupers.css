@@ -565,12 +565,12 @@ h5 {
 
     }
 
-    .logo_ace {
+    /* .logo_ace {
         width: 50%;
         margin-left: 90px;
         margin-bottom: 50px;
         margin-top: 30px;
-    }
+    } */
 
     .mokup_img {
         width: 80%;
@@ -579,7 +579,7 @@ h5 {
 
     .mokup_img1 {
         width: 80%;
-        margin-left: 42px;
+        margin-left: 55px;
     }
 
     .work_cards {
