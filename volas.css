@@ -251,6 +251,7 @@ hr {
     font-weight: lighter;
     margin-left: -10px;
     color: #3E454D;
+    margin-bottom: 30px;
 }
 
 .troupgrid_ {
@@ -274,7 +275,7 @@ hr {
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 .mokup_img {
