@@ -350,7 +350,7 @@ h5 {
     }
 
 .hero {
-        height: 75vh;
+        height: 85vh;
         width: 100%;
         background-color: black;
         margin-bottom: 100px;
@@ -465,7 +465,7 @@ p {
 @media (min-width: 769px)and (max-width: 1024px) {
 
         .hero {
-            height: 70vh;
+            height: 95vh;
             width: 100%;
             background-color: black;
             margin-bottom: 100px;
