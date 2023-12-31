@@ -7,7 +7,11 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    color:rgb(26, 26, 26)
+    background-color:rgb(26, 26, 26)
+}
+
+main {
+
 }
 
 .hero {
